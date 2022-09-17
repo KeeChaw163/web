@@ -1,0 +1,44 @@
+.heart:before,.heart:after{
+    position: absolute;
+    display: block;
+    content:".";
+	margin: 50px 30px;
+    width: 150px;
+    height: 250px;
+    background-color: red;
+    border-top-left-radius: 50% 75px;
+    border-top-right-radius: 50% 75px;
+    left: 41px;
+    top: 0px;
+    transform: rotate(-45deg);
+	box-shadow: 10px -10px 5px pink;	
+}
+.heart:after{
+    transform: rotate(45deg);
+    left: 112px;
+	box-shadow: 10px -10px 5px pink;
+}
+.cont{
+	margin: 50px auto;
+	overflow: hidden;
+	width: 500px;
+	height: 1000px;
+	position: relative;
+}
+.outer{
+	margin: 50px 80px;
+	width: 350px;
+	height: 350px;
+	position: absolute;
+	border-radius: 50px;
+	background-color: #000000;
+}
+.outer:hover{
+	left: 0;
+	text-align: 0;
+	animation: move 0.01s ease alternate infinite;
+}
+@-webkit-keyframes move{
+	12%  {left: 0px;top: 0px;}
+	100% {left: -30px;top: -30px;}
+}

@@ -1,0 +1,21 @@
+#total{
+	margin-left: 300px;
+	text-align: center;
+	width: 500px;
+	height: 150px;
+	border: 1px solid #ff0004;
+	float: left;
+}
+#city li{
+	margin-top: 30px;
+	margin-left: 10px;
+	width: 60px;
+	height: 30px;
+	background-color: aqua;
+	border: 1px solid #ff0004;
+	float: left;
+	list-style: none;
+}
+#btnList{
+	margin-left: 850px;
+}

@@ -1,0 +1,35 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.img{
+	width: 740px;
+	height: 300px;
+	display: block;
+	float: left;
+}
+.outer{
+	margin: 20px auto;
+	overflow: hidden;
+	width: 740px;
+	height: 300px;
+	position: relative;
+}
+.inner{
+	width: 3700px;
+	height: 300px;
+	position: absolute;
+	left: 0;
+	text-align: 0;
+	animation: move 10s ease normal infinite;
+}
+@-webkit-keyframes move{
+	12%  {left: 0px;}
+	25%  {left: -740px;}
+	37%  {left: -740px;}
+	50%  {left: -1480px;}
+	62%  {left: -1480px;}
+	75%  {left: -2220px;}
+	82%  {left: -2220px;}
+	100% {left: -2960px;}
+}

@@ -1,0 +1,46 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.cont{
+	margin: 20px auto;
+	width: 640px;
+	height: 200px;
+	background: url(../img/2.png);
+}
+.outer{
+	overflow: hidden;
+	width: 640px;
+	height: 150px;
+	position: relative;
+}
+.inner{
+	width: 640px;
+	height: 280px;
+	position: absolute;
+	left: 0;
+	text-align: 0;
+	animation: move 20s ease normal infinite;
+}
+li{
+	color: #ffff00;
+	list-style: none;
+	margin-left: 20px;
+	font-size: 18px;
+	margin-top: 20px;
+}
+h2{
+	margin-left: 20px;
+	padding: 20px 0px;
+	line-height: 25px;
+}
+@-webkit-keyframes move{
+	12%  {top: 0px;}
+	25%  {top: -40px;}
+	37%  {top: -80px;}
+	50%  {top: -120px;}
+	62%  {top: -160px;}
+	75%  {top: -200px;}
+	82%  {top: -240px;}
+	100% {top: -380px;} 
+}
