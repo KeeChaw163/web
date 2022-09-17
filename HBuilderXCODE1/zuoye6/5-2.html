@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Title5-2</title>
+		<style type="text/css">
+			.cont{
+				width: 800px;
+				height: 270px;
+				margin: 50px auto;
+				background-color: rgb(129, 218, 255);
+			}
+			p{
+				padding-top: 0px;
+				margin-left: 20px;
+			}
+			input{
+				border: none;
+			}
+			.c3{
+				width: 660px;
+			}
+			.c1{
+				margin-top: 20px;
+				width: 660px;
+			}
+			.col{
+				width: 70px;
+				height: 30px;
+				background-color: rgb(0, 163, 163);
+				border-radius: 10% / 20%;
+			}
+			a{
+				text-decoration:none
+			}
+		</style>
+	</head>
+	<body>
+		<div class="cont">
+			<form action="#" method="post">
+				<p>收件人&nbsp;&nbsp;&nbsp;<input type="text"/ class="c1"></p>
+				<p>主&nbsp;&nbsp;&nbsp;题&nbsp;&nbsp;&nbsp;<input type="text"/ class="c3"></p>
+				<p>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="添加附件">添加附件</a>
+					<a href="在线文档">在线文档</a>
+				</p>
+				<p>正&nbsp;&nbsp;&nbsp;文&nbsp;&nbsp;&nbsp;<span><textarea rows="5" cols="89"></textarea></span></p>
+				<p>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="button" value="直接发送" class="col"/>
+					<input type="button" value="存草稿" class="col"/>
+					<input type="button" value="其他选项" class="col"/>
+					&nbsp;&nbsp;&nbsp;是否保存到已发送&nbsp;&nbsp;&nbsp;&nbsp;
+					<label><input type="radio" />是</label>
+					<label><input type="radio" />否</label>
+				</p>
+			</form>
+		</div>
+	</body>
+</html>
