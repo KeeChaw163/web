@@ -1,0 +1,22 @@
+.global{width: 100%;font-family: "STKaiti";}
+.top{background-color: #F8C536;margin-top: -10px; padding-top: 2px;}
+.top-tip{margin-left: 250px;width: 1000px;height: 30px;font-size: 22px;background-color: #F8C536;}
+.top-tip span{padding-left: 10px;}
+a{text-decoration: none;color: #ffffff;}
+.top-main{margin-left: 250px;width: 1000px;height:100px;background-color: #F8C536;color: #FFFFFF;font-size: 18px;}
+.nav{background-color: #B78100;padding-top: 2px;}
+.top-nav{margin-left: 250px;width:1000px;height:40px;font-size:28px;background-color: #B78100;}
+.top-nav td{width:165px;height: 30px; text-align:center;}
+.top-nav td:hover{background-color: #F8C536;}
+.cen{background-color: #F8C536;height: 1010px;padding-top: 20px;}
+.cen-top{margin-left: 250px;width: 1000px;background-color: #ffffff;}
+.cen-top-tab td{width: 350px;}
+.cen-tab{margin-left: 250px;width: 1000px;background-color: #ffffff;margin-top: 70px;}
+table{border-collapse: collapse;}
+.cen-tab-tr{background-color: #F4F4F4;}
+.cen-tab td{width: 120px;text-align: center;padding: 10px;}
+.cen-tab tr:hover{background-color: #E0E0E0;}
+.bot{background-color: #F8C536;height: 270px;}
+.bot-part{clear:both;width: 1000px;margin-left: 250px; float:left;background-color: #FFFFFF;}
+.bot-part select{width: 120px;height: 40px; font-size: 18px;color: #2D96E9; border: none;}
+.foot{background-color: #333333;color: #7A7A7A;text-align: center;padding: 20px;}
